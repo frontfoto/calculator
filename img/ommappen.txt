@@ -1,0 +1,1 @@
+I denna mapp lägger du alla bilder som skall vara med på hemsidan, jpg, png och gif.
