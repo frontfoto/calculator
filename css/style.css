@@ -1,1 +1,137 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+	font-size: 35px;
+	background-color: lightgrey;
+}
+
+
+#container {
+	
+	border: solid 3px black;
+	display:grid;
+	height:90vh;
+	width:95vw;
+	margin:auto;
+	grid-template-rows: 20% auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	'rs rs rs rs'
+	'mr mplus mc multi'
+	'sju atta nio add'
+	'fyra fem sex sub'
+	'ett tva tre dv'
+	
+	'nolla nolla c likamed';
+}
+
+.funct {
+	background-color: rgba(32, 178, 171, 0.39);
+}
+
+.number {
+	background-color: rgba(212, 109, 243, 0.24);
+}
+
+article {
+	border: groove 1px lightgrey;
+	display:grid;
+	background-color:lightgrey;
+	
+}
+
+.operator {
+	background-color: rgba(200,100,80,0.2);
+}
+
+article div,#val {
+	text-align:center;
+	margin:auto;
+}
+
+#result {
+	grid-area: rs;
+	margin:2px;
+	background-color:rgba(238, 233, 233, 0.801);
+	font-size: 1.5em;
+	display: grid;
+	border: solid 1px black;
+}
+
+#noll {
+	grid-area: nolla;
+}
+
+#ett {
+	grid-area: ett;
+	
+}
+
+#mc {
+	grid-area: mc;
+}
+
+#tva {
+	grid-area: tva;
+}
+
+#tre {
+	grid-area: tre;
+
+}
+
+#fyra {
+	grid-area: fyra;
+}
+
+#fem {
+	grid-area: fem;
+}
+
+#sex {
+	grid-area: sex;
+}
+
+#sju {
+	grid-area: sju;
+}
+
+#atta {
+	grid-area: atta;
+}
+
+#nio {
+	grid-area: nio;
+}
+
+#add {
+	grid-area: add;
+}
+
+#sub {
+	grid-area: sub;
+}
+
+#dv {
+	grid-area: dv;
+}
+
+#multi {
+	grid-area: multi;
+}
+
+#likamed {
+	grid-area: likamed;
+	background-color: lightgoldenrodyellow;
+}
+
+#mplus {
+	grid-area: mplus;
+}
+
+#mplus {
+	grid-area: mr;
+}
+
+#clear {
+	grid-area: c;
+	background-color: rgba(255, 250, 205, 0.384);
+}
